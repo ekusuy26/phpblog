@@ -133,6 +133,9 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+    'providers' => array(
+        kanazaca\CounterCache\CounterCacheServiceProvider::class,
+    ),
 
     'providers' => [
 
@@ -176,11 +179,6 @@ return [
         App\Providers\RouteServiceProvider::class,
 
     ],
-
-    'providers' => array(
-        kanazaca\CounterCache\CounterCacheServiceProvider::class,
-    )
-
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
