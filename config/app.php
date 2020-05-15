@@ -177,6 +177,10 @@ return [
 
     ],
 
+    'providers' => array(
+        kanazaca\CounterCache\CounterCacheServiceProvider::class,
+    )
+
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
