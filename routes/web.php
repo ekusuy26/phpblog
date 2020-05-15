@@ -21,3 +21,6 @@ Route::get('/drafts/new', 'Auth\PostController@index')->name('drafts.new');
 Route::post('/drafts/new', 'Auth\PostController@postArticle')->name('drafts.new.posts');
 
 Route::get('/drafts/{id}', 'Auth\PostController@showArticle')->name('item');
+
+Route::post('/posts/{post}/likes', 'LikesController@store');
+Route::post('/posts/{post}/likes/{like}', 'LikesController@destroy');
