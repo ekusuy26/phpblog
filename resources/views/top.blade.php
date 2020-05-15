@@ -41,6 +41,7 @@
                 <a class="article-title" href="/drafts/{{$article->id}}">{{ $article->title }}</a>
                 <div class="article-details">
                     <div class="article-date">{{ $article->created_at }}</div>
+                    <div class="article-date">{{ $article->user->name }}</div>
                 </div>
             </div>
         </div>
