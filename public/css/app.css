@@ -10944,6 +10944,11 @@ body {
   font-weight: 400;
 }
 
+.validation {
+  color: red;
+  font-size: 14px;
+}
+
 nav {
   background-color: #55C501 !important;
 }
@@ -11100,11 +11105,6 @@ nav #Navber .navbar-nav .nav-item #register {
   margin-right: 1rem !important;
 }
 
-.validation {
-  color: red;
-  font-size: 14px;
-}
-
 .item-page-wrapper {
   background-color: #f8f9fc;
 }
@@ -11164,5 +11164,43 @@ nav #Navber .navbar-nav .nav-item #register {
   background-color: #364549;
   width: 100%;
   display: block;
+}
+
+.top-wrapper {
+  background-color: #F6F6F6;
+  padding: 40px 0px;
+  height: 100vh;
+}
+
+.top-wrapper .articles-wrapper {
+  background-color: white;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.top-wrapper .articles-wrapper .article-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: solid 3px #F6F6F6;
+}
+
+.top-wrapper .articles-wrapper .article-box .article-box-left {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.top-wrapper .articles-wrapper .article-box .article-box-right {
+  padding-left: 20px;
+}
+
+.top-wrapper .articles-wrapper .article-box .article-box-right .article-title {
+  font-weight: bold;
+}
+
+.top-wrapper .articles-wrapper .article-box .article-box-right .article-date {
+  color: gray;
 }
 
