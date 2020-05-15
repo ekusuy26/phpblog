@@ -19,6 +19,8 @@
 
 
     <ul class="navbar-nav ml-auto mr-5">
+    <!-- ログインしているかどうかの確認 -->
+    @if (Auth::check())
       <li class="nav-item ml-2">
         <a class="nav-link text-white" href="#">ストック一覧</a>
       </li>
@@ -53,12 +55,14 @@
           </form>
         </div>
       </li>
+      @else
       <li class="nav-item ml-2">
         <a class="nav-link text-white" id="register" href="/register">ユーザ登録</a>
       </li>
       <li class="nav-item ml-2">
         <a class="nav-link text-white" href="#">ログイン</a>
       </li>
+      @endif
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
