@@ -45,6 +45,14 @@ class PostController extends Controller
     public function showArticle($id)
     {
         $article = Post::where('id', $id)->first();
-        return view('auth.item', compact('article'));
+        $post = Post::findOrFail($id); // findOrFail 見つからなかった時の例外処理
+    
+        $like = $post->likes()->where('user_id', Auth::user()->id)->first();
+    
+        return view('auth.item')->with(array('article' => $article, 'post' => $post, 'like' => $like));
+    }
+    public function __construct()
+    {
+      $this->middleware('auth', array('except' => 'index'));
     }
 }
