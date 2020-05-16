@@ -1,6 +1,10 @@
 <?php
 
 return [
+    'providers' => array(
+        // ...
+        kanazaca\CounterCache\CounterCacheServiceProvider::class,
+    ),
 
     /*
     |--------------------------------------------------------------------------
@@ -133,9 +137,6 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
-    'providers' => array(
-        kanazaca\CounterCache\CounterCacheServiceProvider::class,
-    ),
 
     'providers' => [
 

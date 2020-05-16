@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="post-page-footer">
-        <input type="submit" class="post-button m-1" value="Qiitaに投稿">
+        <input type="submit" class="post-button m-1" value="投稿">
     </div>
 </form>
 

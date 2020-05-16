@@ -7,7 +7,7 @@ use kanazaca\CounterCache\CounterCache;
 
 class Like extends Model
 {
-    use CounterCache;
+    // use CounterCache;
 
     public $counterCacheOptions = [
         'Post' => [

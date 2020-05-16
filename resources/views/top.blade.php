@@ -5,7 +5,7 @@
 <div id="login-wrapper" class="row">
     <div class="col-7">
         <h1 class="text-white"><b>Hello Hackers！</b></h1>
-        <p class="text-white">Qiita風記事投稿サービスの教材</p>
+        <p class="text-white">knowledge share</p>
     </div>
     <div class="col-5">
         <form method="POST" action="{{ route('login') }}">
@@ -13,7 +13,7 @@
             <table>
                 <tr>
                     <th>ユーザ名</th>
-                    <td><input type="text" class="form-control" placeholder="qiita風たん" size="50" value="{{ old('email') }}" name="username" required autofocus></td>
+                    <td><input type="text" class="form-control" placeholder="ユーザー名" size="50" value="{{ old('email') }}" name="username" required autofocus></td>
                 </tr>
                 <tr>
                     <th>メールアドレス</th>
