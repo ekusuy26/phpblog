@@ -10950,7 +10950,7 @@ body {
 }
 
 nav {
-  background-color: #55C501 !important;
+  background-color: #01c5c2 !important;
 }
 
 nav #Navber .navbar-nav .nav-item {
@@ -10958,7 +10958,7 @@ nav #Navber .navbar-nav .nav-item {
 }
 
 nav #Navber .navbar-nav .nav-item #post-link {
-  background-color: #367E00;
+  background-color: #02f5f1;
   border-radius: 5px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -10970,7 +10970,7 @@ nav #Navber .navbar-nav .nav-item #register {
 }
 
 #login-wrapper {
-  background-color: #55C501;
+  background-color: #01c5c2;
 }
 
 #login-wrapper .col-7 {
@@ -11006,7 +11006,7 @@ nav #Navber .navbar-nav .nav-item #register {
 #login-wrapper .col-5 form table tr td input[type=submit] {
   width: 110px;
   color: white;
-  background-color: #55C501;
+  background-color: #01c5c2;
   border: solid 2px white;
 }
 
@@ -11097,7 +11097,7 @@ nav #Navber .navbar-nav .nav-item #register {
 }
 
 .post-page-wrapper .post-page-footer .post-button {
-  background-color: #55C501;
+  background-color: #01c5c2;
   color: white;
   border-radius: 0.25rem;
   width: 7rem;
